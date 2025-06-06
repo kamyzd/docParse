@@ -1,5 +1,5 @@
 import { Context, Next } from "koa";
-import { RequestCode } from "../util/request";
+import { RequestCode } from "../utils/request";
 interface AppError extends Error {
   status?: number;
   code?: number;
